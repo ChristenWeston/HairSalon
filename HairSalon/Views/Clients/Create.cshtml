@@ -12,7 +12,10 @@
   @Html.TextBoxFor(model => model.Name)
 
   @Html.LabelFor(model => model.Stylist)
-   @Html.DropDownList("StylistId")
+  @Html.DropDownList("StylistId")
+
+  @Html.LabelFor(model => model.NextAppt)
+  @Html.TextBoxFor(model => model.NextAppt)
 
   <input type="submit" value="Add new client" class="btn btn-default" />
 }
