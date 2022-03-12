@@ -13,10 +13,10 @@
 {
   <p>No Clients!</p>
 }
-
+<p> Clients:</p>
 @foreach (Client client in @Model.Clients)
 {
-  <li> Name: @client.Name StylistID: @client.StylistId</li>
+  <li> Name: @client.Name | Next Appointment: @client.NextAppt</li>
 }
 
 <p>@Html.ActionLink("Back to list", "Index")</p>
