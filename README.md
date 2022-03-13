@@ -1,6 +1,6 @@
 # Hair Salon
 
-#### Created by Christen Weston
+### Created by Christen Weston
 
 #### This project let you track your stylists and their clients
 
